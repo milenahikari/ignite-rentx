@@ -14,7 +14,7 @@ import {
   Archivo_600SemiBold,
 } from "@expo-google-fonts/archivo";
 
-import Home from "./src/screens/Home";
+import { Home } from "./src/screens/Home";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
