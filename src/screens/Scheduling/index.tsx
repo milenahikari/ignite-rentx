@@ -3,6 +3,7 @@ import { StatusBar } from "react-native";
 import { useTheme } from "styled-components";
 
 import { BackButton } from "../../components/BackButton";
+import { Calendar } from "../../components/Calendar";
 import { Button } from "../../components/Button";
 
 import ArrowSvg from "../../assets/arrow.svg";
@@ -40,7 +41,9 @@ export function Scheduling() {
         </S.RentalPeriod>
       </S.Header>
 
-      <S.Content></S.Content>
+      <S.Content>
+        <Calendar />
+      </S.Content>
 
       <S.Footer>
         <Button title="Confirmar" />
