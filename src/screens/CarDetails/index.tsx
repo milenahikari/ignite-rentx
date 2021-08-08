@@ -22,10 +22,14 @@ export function CarDetails() {
     navigation.navigate("Scheduling");
   }
 
+  function handleGoBack() {
+    navigation.goBack();
+  }
+
   return (
     <S.Container>
       <S.Header>
-        <BackButton onPress={() => {}} />
+        <BackButton onPress={handleGoBack} />
       </S.Header>
 
       <S.CarImages>
